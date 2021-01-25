@@ -5,14 +5,15 @@ import java.util.Scanner;
 public class Car extends Vehicle {
 
     Scanner input = new Scanner(System.in);
-    
-    public Car(){
+
+    public Car() {
         super(brand, model, wheels, type, color, year);
         wheels = 4;
     }
 
-    public void addVehicle(){
-        
+    @Override
+    public void addVehicle() {
+
         System.out.println("Brand");
         brand = input.nextLine();
         setBrand(brand);
@@ -27,16 +28,13 @@ public class Car extends Vehicle {
 
     }
 
+    public void getVehicleDescription() {
 
-    public void getVehicleDescription(){
-        
         System.out.println("Car Brand: " + brand);
         System.out.println("Car Model: " + model);
         System.out.println("Car Color: " + color);
         System.out.println("Total Wheels: " + wheels);
-        
-       
+
     }
-    
-       
+
 }

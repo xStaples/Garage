@@ -4,19 +4,15 @@ import java.util.Scanner;
 
 public class Motorcyle extends Vehicle {
 
-
-
     Scanner input = new Scanner(System.in);
-    
-    public Motorcyle(){
+
+    public Motorcyle() {
         super(brand, model, wheels, type, color, year);
     }
 
-    
+    @Override
+    public void addVehicle() {
 
-    public void addVehicle(){
-        
-        
         System.out.println("Brand");
         brand = input.nextLine();
         setBrand(brand);
@@ -31,13 +27,12 @@ public class Motorcyle extends Vehicle {
 
     }
 
+    public void getVehicleDescription() {
 
-    public void getVehicleDescription(){
-        
         System.out.println("Motorcycle Brand: " + brand);
         System.out.println("Motorcycle Model: " + model);
         System.out.println("Motorcycle Color: " + color);
         System.out.println("Total Wheels: " + wheels);
-       
+
     }
 }

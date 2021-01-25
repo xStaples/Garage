@@ -58,8 +58,7 @@ public class Vehicle {
         this.year = year;
     }
 
-
-    public void addVehicle(){
+    public void addVehicle() {
 
     }
 

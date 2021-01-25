@@ -35,14 +35,14 @@ public class App {
                 case "1":
 
                     Vehicle car = new Car();
-                    car.buildVehicle();
+                    car.addVehicle();
                     garage.add(car);
                     break;
 
                 case "2":
 
                     Vehicle motorcyle = new Motorcyle();
-                    motorcyle.buildVehicle();
+                    motorcyle.addVehicle();
                     garage.add(motorcyle);
                     break;
 

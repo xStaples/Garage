@@ -11,7 +11,7 @@ public class Car extends Vehicle {
         wheels = 4;
     }
 
-    public void buildVehicle(){
+    public void addVehicle(){
         
         System.out.println("Brand");
         brand = input.nextLine();

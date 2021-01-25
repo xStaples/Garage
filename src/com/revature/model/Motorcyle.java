@@ -14,7 +14,7 @@ public class Motorcyle extends Vehicle {
 
     
 
-    public void buildVehicle(){
+    public void addVehicle(){
         
         
         System.out.println("Brand");

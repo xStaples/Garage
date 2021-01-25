@@ -9,12 +9,6 @@ import com.revature.model.Vehicle;
 
 public class App {
 
-    // Example of Polymorphism and Inheritance
-    // Have Constructors, getters setters, methods
-    // Method overriding in the child class and show inheritance
-
-    // Build working UI with accepting inputs from terminal
-    // Vehicle type should determine what vehicle method to execute
     static ArrayList<Vehicle> garage = new ArrayList<>();
 
     static String userChoice;
@@ -53,7 +47,7 @@ public class App {
                     break;
 
                 case "3":
-                
+
                     System.out.println("This is where you can check your created vehicles");
                     System.out.println(garage.toArray());
                     break;

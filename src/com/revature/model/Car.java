@@ -13,7 +13,6 @@ public class Car extends Vehicle {
 
     public void buildVehicle(){
         
-        
         System.out.println("Brand");
         brand = input.nextLine();
         setBrand(brand);

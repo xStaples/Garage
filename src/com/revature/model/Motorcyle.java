@@ -10,7 +10,6 @@ public class Motorcyle extends Vehicle {
     
     public Motorcyle(){
         super(brand, model, wheels, type, color, year);
-        
     }
 
     

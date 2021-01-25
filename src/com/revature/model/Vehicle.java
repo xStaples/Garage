@@ -60,7 +60,7 @@ public class Vehicle {
 
 
     public void buildVehicle(){
-        
+
     }
 
     public void getVehicleDescription() {
